@@ -1,58 +1,224 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Jowe Boy&apos;s Website</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accountable Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-	<body>
-		<header>
-			<div class="row">
-				<div class="logo">
-					<img src="assets/logo-new.png" alt="oe_logo">
-				</div>
-				<ul class="main-nav">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
-			<div class="hero">
-				<h1>Ready for Action?</h1>
-				<div class="button">
-					<a href="" class="btn btn-one">Watch Video</a>
-					<a href="" class="btn btn-two">Explore More</a>
-				</div>
-			</div>
-		</header>
-		<section class="service grid-container">
-		</section>
-		<section class="about grid-container">
-		</section>
-		<section class="blog grid-container">
-		</section>
-		<section class="contact grid-container">
-			<div class="contact-form grid-item">
-				<div class="contact-section-header">
-					<h2>Get in touch with us!</h2>
-				</div>
-				<form class="form">
-					<input type="text" name="fullname" placeholder="Fullname">
-					<input type="email" name="email" placeholder="Email Address">
-					<input type="number" name="phonenumber" placeholder="Phone Number">
-					<textarea class="subject" name="subject" placeholder="Your subject here..."></textarea>
-					<input class="button" type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="contact-form grid-item">
-			</div>
-		</section>
-		<section class="faq grid-container">
-		</section>
-	</body>
+  <body>
+    <header>
+      <div class="row">
+        <div class="logo">
+          <img src="assets/logo-new.png" alt="account_logo" />
+        </div>
+        <ul class="main-nav">
+          <li class="active"><a href="">INICIO</a></li>
+          <li><a href="#servicios">SERVICIOS</a></li>
+          <li><a href="#sobreNosotros">SOBRE NOSOTROS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+          <li><a href="#preguntas">PREGUNTAS FRECUENTES</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        <h1>¿Listo para transformar tus finanzas?</h1>
+        <div class="button">
+          <a href="https://www.youtube.com/" class="btn btn-one">Ver video</a>
+          <a href="" class="btn btn-two">Ver más información</a>
+        </div>
+      </div>
+    </header>
+    <section class="service grid-container" id="servicios">
+      <div class="service-content grid-item">
+        <h2 class="title-servicios">Nuestros Servicios</h2>
+        <p class="subtitle-servicios">
+          En Accountable, ofrecemos soluciones integrales para gestionar tus
+          finanzas personales de manera eficiente y responsable.
+        </p>
+        <div class="service-cards">
+          <div class="service-card">
+            <h3>Presupuesto Personal</h3>
+            <p>
+              Creamos planes financieros personalizados que te ayudan a
+              controlar tus gastos y maximizar tus ahorros.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Inversiones Inteligentes</h3>
+            <p>
+              Asesoramiento experto para hacer crecer tu patrimonio mediante
+              estrategias de inversión adaptadas a tu perfil de riesgo.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Planificación Fiscal</h3>
+            <p>
+              Optimizamos tu carga fiscal para que cumplas con tus obligaciones
+              mientras aprovechas todas las ventajas legales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="about grid-container" id="sobreNosotros">
+      <div class="about-content grid-item">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          Fundada en 2020, Accountable nació con la misión de transformar la
+          relación de las personas con sus finanzas, simplificando la gestión
+          financiera y empoderando a nuestros clientes.
+        </p>
+        <p>
+          Somos un equipo de expertos financieros apasionados por ayudar a las
+          personas a alcanzar la libertad financiera mediante educación,
+          planificación estratégica y herramientas innovadoras.
+        </p>
+        <div class="values">
+          <h3>Nuestros Valores</h3>
+          <ul>
+            <li>Transparencia en todo lo que hacemos</li>
+            <li>Integridad en nuestro asesoramiento</li>
+            <li>Innovación constante en nuestras soluciones</li>
+            <li>Personalización para cada cliente</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog grid-container" id="blog">
+      <div class="blog-content grid-item">
+        <h2>Últimas Publicaciones</h2>
+        <p>
+          Mantente al día con las mejores estrategias y consejos para gestionar
+          tus finanzas personales.
+        </p>
+        <img src="assets/blogmail.png" alt="" />
+      </div>
+      <div class="blog-posts grid-item">
+        <div class="blog-post">
+          <h3>5 Estrategias para Eliminar Deudas Rápidamente</h3>
+          <p class="post-date">15 de Abril, 2025</p>
+          <p class="post-excerpt">
+            Descubre cómo aplicar el método de bola de nieve para liberarte de
+            tus deudas y mejorar tu situación financiera en tiempo récord.
+          </p>
+          <a href="#" class="read-more">Leer más</a>
+        </div>
+        <div class="blog-post">
+          <h3>Guía Completa de Inversión para Principiantes</h3>
+          <p class="post-date">10 de Abril, 2025</p>
+          <p class="post-excerpt">
+            Todo lo que necesitas saber para comenzar a invertir de manera
+            segura y rentable, incluso si nunca has invertido antes.
+          </p>
+          <a href="#" class="read-more">Leer más</a>
+        </div>
+        <div class="blog-post">
+          <h3>Cómo Crear un Fondo de Emergencia Efectivo</h3>
+          <p class="post-date">5 de Abril, 2025</p>
+          <p class="post-excerpt">
+            Aprende a establecer un colchón financiero que te proteja de
+            imprevistos y te brinde tranquilidad en tiempos difíciles.
+          </p>
+          <a href="#" class="read-more">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact grid-container" id="contacto">
+      <div class="contact-form grid-item formulario">
+        <div class="contact-section-header">
+          <h2>Ponte en contacto</h2>
+        </div>
+        <form class="form">
+          <input type="text" name="fullname" placeholder="Fullname" />
+          <input type="email" name="email" placeholder="Email Address" />
+          <input type="number" name="phonenumber" placeholder="Phone Number" />
+          <textarea
+            class="subject"
+            name="subject"
+            placeholder="Your subject here..."
+          ></textarea>
+          <input class="button" type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="contact-form grid-item contact-redes">
+        <div class="contact-info">
+          <h3>Información de Contacto</h3>
+          <p><strong>Dirección:</strong> Calle Financiera 123, 28001 Mendoza</p>
+          <p><strong>Teléfono:</strong> +34 91 123 45 67</p>
+          <p><strong>Email:</strong> info@accountable.com</p>
+          <p><strong>Horario:</strong> Lunes a Viernes de 9:00 a 18:00</p>
+        </div>
+
+        <div class="social-media">
+          <h3>Síguenos en Redes Sociales</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/">
+              <img src="assets/facebook-icon.png" alt="Facebook"
+            /></a>
+            <a href="https://www.twitter.com/"
+              ><img src="assets/twitter-icon.png" alt="Twitter"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img src="assets/instagram-icon.png" alt="Instagram"
+            /></a>
+            <a href="https://www.linkedin.com/"
+              ><img src="assets/linkedin-icon.png" alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq grid-container" id="preguntas">
+      <div class="faq-header grid-item">
+        <h2>Preguntas Frecuentes</h2>
+        <p>Resolvemos tus dudas sobre gestión financiera personal</p>
+      </div>
+      <div class="faq-content grid-item">
+        <div class="faq-item">
+          <h3>¿Cómo puedo comenzar a ahorrar si tengo deudas?</h3>
+          <p>
+            Recomendamos primero crear un pequeño fondo de emergencia (1-2 meses
+            de gastos) y luego enfocarte en eliminar deudas de alto interés
+            antes de aumentar tus ahorros.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Cuánto debería invertir mensualmente?</h3>
+          <p>
+            Como regla general, intenta invertir al menos el 15% de tus
+            ingresos. Sin embargo, esto puede variar según tu situación personal
+            y objetivos financieros.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Necesito un asesor financiero personal?</h3>
+          <p>
+            Si tienes una situación financiera compleja, objetivos específicos o
+            un patrimonio significativo, un asesor puede ayudarte a optimizar tu
+            estrategia financiera.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Cómo puedo mejorar mi puntuación crediticia?</h3>
+          <p>
+            Paga tus facturas a tiempo, reduce tu nivel de endeudamiento, no
+            solicites demasiado crédito en poco tiempo y revisa regularmente tu
+            informe crediticio.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
